@@ -43,6 +43,6 @@ setup(name='nomeroff-net',
       author_email='dimabendera@gmail.com, oleg.cherniy@ria.com',
       license='MIT',
       packages=find_packages(),
-      install_requires=packages,
+      install_requires=[],
       include_package_data=True,
       zip_safe=False)
